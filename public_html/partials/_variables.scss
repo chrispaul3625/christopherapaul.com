@@ -1,10 +1,18 @@
 // colors
 
-$color-1: #3a2c41; // Blackcurrant
-$color-2: #eaf2e3; // Willow Brook
-$color-3: #000000; // Black
-$color-4: #c0a672; // Gimblet
+$color-1: #363558; // Martinique
+$color-2: #544173; // Mulled Wine
+$color-3: #dadcdc; // Iron
+$color-4: #65d29b; // Emerald
+$color-5: #1c1726; // Bastille
+$color-6: #ffffff; // White
 
 // fonts
 
-$primary-font: 'Sintony', sans-serif;
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Vollkorn', serif;
+
+// animation duration
+
+$fold-animation: .5s;
+$fold-content-animation: .2s*(3+1)/2; // replace 3 with number of elements that you want to animate
