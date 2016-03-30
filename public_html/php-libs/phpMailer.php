@@ -53,7 +53,7 @@ try {
 	$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
 	$mailer = Swift_Mailer::newInstance($smtp);
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
-	//header("Location: http://christopherapaul.com/contact-me/index.php");
+	//header("Location: http://christopherapaul.com/item-4.html");
 
 	/**
 	 * the send method returns the number of recipients that accepted the Email
